@@ -5,11 +5,15 @@ multi-module maven project containing brewery microservices and servers
 - **Also need to run Eureka Server** with ("local-discovery") Profile set so that the Failover Service can be found (GET requested by the other Microservices)
     at **http://localhost:8083/inventory-failover**
 - Access Eureka Console to verify @ http://localhost:8761/
+- And Cloud Config Repo
   
 
-### Default Port Mappings - For Single Host
-| Service Name | Port | 
+### Default Port Mappings - For Single Host (Cloud)
+| Project ||
 | --------| -----|
+| **[KWG MICROSERVICES BREWERY](https://github.com/kawgh1/kwg-microservices-brewery)** ||
+| **Service Name** | **Port** | 
+| | |
 | **[Brewery Beer Service](https://github.com/kawgh1/mssc-beer-service)** | 8080 |
 | **[Brewery Beer Order Service](https://github.com/kawgh1/mssc-beer-order-service)** | 8081 |
 | **[Brewery Beer Inventory Service](https://github.com/kawgh1/mssc-beer-inventory-service)** | 8082 |
@@ -21,7 +25,3 @@ multi-module maven project containing brewery microservices and servers
 | | |
 | | |
 | **[Brewery Cloud Config Repo](https://github.com/kawgh1/mssc-brewery-cloud-config-repo)** |  -----|
-
-- ### Spring Cloud Config Client
-	- Spring Cloud Config Client by default will look for a URL property
-		- 'spring.cloud.config.url' - default is http://localhost:8888
