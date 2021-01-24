@@ -1,0 +1,1 @@
+multi-module maven project containing brewery microservices and servers
