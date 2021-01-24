@@ -16,3 +16,8 @@ multi-module maven project containing brewery microservices and servers
 | [Inventory Failover Service](https://github.com/kawgh1/mssc-inventory-failover) | 8083 |
 | [Netflix Eureka Server](https://github.com/kawgh1/brewery-eureka-server) | 8761
 | [Spring Cloud Gateway Server](https://github.com/kawgh1/mssc-brewery-gateway) | 9090
+| [Spring Cloud Config Server](https://github.com/kawgh1/mssc-spring-cloud-config-server) | 8888
+
+- ### Spring Cloud Config Client
+	- Spring Cloud Config Client by default will look for a URL property
+		- 'spring.cloud.config.url' - default is http://localhost:8888
