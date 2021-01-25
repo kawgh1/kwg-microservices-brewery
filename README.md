@@ -7,7 +7,7 @@
     at **http://localhost:8083/inventory-failover**
 - Access Eureka Console to verify @ http://localhost:8761/
 - And Cloud Config Repo
-- And ActiveMQ
+- And ActiveMQ 
   
 
 ### Default Port Mappings - For Single Host (Cloud)
