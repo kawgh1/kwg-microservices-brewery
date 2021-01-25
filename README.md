@@ -1,5 +1,4 @@
 **multi-module maven project containing brewery microservices and servers**
-![brewery microservices diagram](https://raw.githubusercontent.com/kawgh1/kwg-microservices-brewery/master/cloud-config-server-diagram1.png)
 
 ##### Part of John Thompson's Microservices course
 
