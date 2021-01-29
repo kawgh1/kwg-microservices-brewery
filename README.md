@@ -187,6 +187,53 @@
 		- Configure server credentials in settings.xml (User home dir/.m2)
 		- In servers element, add server with id of 'docker.io'
 		- add your username and password to respective elements
+		- https://www.udemy.com/course/spring-boot-microservices-with-spring-cloud-beginner-to-guru/learn/lecture/20071480#questions/11674030
+        		- Depends what OS you are using.
+                  
+                  Unix/Mac OS X – ~/. m2/repository.
+                  
+                  Windows – C:\Users\{your-username}\. m2\repository.
+                  
+                  
+                  Create a settings.xml file if one does not exist and add
+                  
+                      <?xml version="1.0" encoding="UTF-8"?>
+                      <settings>
+                      <servers>
+                          <server>
+                              <id>registry.hub.docker.com</id>
+                              <username><DockerHub Username></username>
+                              <password><DockerHub Password></password>
+                          </server>
+                      </servers>
+                      </settings>
+                      
+        - Running Docker build in IntelliJ
+            - first run maven clean, maven package
+            - Under Maven/ {application} / Plugins / docker / docker:build to build a local image on the computer
+             - to push to DockerHub using Maven
+                    - before pushing, remember to log out, then log in from the command line to your docker hub account
+                    - # you may need log out first `docker logout` ref. https://stackoverflow.com/a/53835882/248616
+                      docker login
+                      
+                      According to the docs:
+                      
+                      You need to include the namespace for Docker Hub to associate it with your account.
+                      The namespace is the same as your Docker Hub account name.
+                      You need to rename the image to YOUR_DOCKERHUB_NAME/docker-whale.
+                      
+                      So, this means you have to tag your image before pushing:
+                      
+                      docker tag firstimage YOUR_DOCKERHUB_NAME/firstimage
+                      
+                      and then you should be able to push it.
+                      
+                      docker push YOUR_DOCKERHUB_NAME/firstimage
+
+                    - mvn clean package docker:build docker:push
+             - need to push each server/microservice up to DockerHub
+                  - Docker interview with John Thompson and James Labocki of Redhat on Docker
+                  - https://www.udemy.com/course/spring-boot-microservices-with-spring-cloud-beginner-to-guru/learn/lecture/20118108#questions
 		
 [Top](#contents)
 	
