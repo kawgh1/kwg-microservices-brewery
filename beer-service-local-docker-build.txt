@@ -1,0 +1,212 @@
+Beer - Service - Docker Build local
+
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------< com.kwgdev:mssc-beer-service >--------------------
+[INFO] Building mssc-beer-service 0.0.1-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- docker-maven-plugin:0.33.0:build (default-cli) @ mssc-beer-service ---
+[WARNING] Invalid POM for com.github.jknack:handlebars:jar:4.0.7, transitive dependencies (if any) will not be available, enable debug logging for more details
+[WARNING] Invalid POM for com.github.jknack:handlebars-helpers:jar:4.0.7, transitive dependencies (if any) will not be available, enable debug logging for more details
+[INFO] Copying files to C:\Users\----\IdeaProjects\mssc-beer-service\target\docker\<docker-username>\mssc-beer-service\build\maven
+[INFO] Building tar: C:\Users\----\IdeaProjects\mssc-beer-service\target\docker\<docker-username>\mssc-beer-service\tmp\docker-build.tar
+[INFO] DOCKER> [<docker-username>/mssc-beer-service:latest] "mssc-beer-service": Created docker-build.tar in 6 seconds 
+[INFO] DOCKER> Credentials helper reply for "docker-credential-desktop" is 0.6.3
+[INFO] DOCKER> Pulling from library/openjdk
+a076a628af6f: Pulling fs layer 
+943d8acaac04: Pulling fs layer 
+b9998d19c116: Pulling fs layer 
+8162353a3d61: Pulling fs layer 
+8162353a3d61: Waiting     
+a076a628af6f: Downloading [>                                                  ]  276.9kB/27.11MB
+943d8acaac04: Downloading [>                                                  ]  33.12kB/3.249MB
+b9998d19c116: Downloading [==================================================>]     211B/211B
+b9998d19c116: Download complete 
+943d8acaac04: Downloading [======>                                            ]  404.7kB/3.249MB
+a076a628af6f: Downloading [=>                                                 ]  838.1kB/27.11MB
+943d8acaac04: Downloading [=============>                                     ]  867.6kB/3.249MB
+a076a628af6f: Downloading [===>                                               ]  1.956MB/27.11MB
+a076a628af6f: Downloading [=====>                                             ]  2.792MB/27.11MB
+943d8acaac04: Downloading [================>                                  ]   1.08MB/3.249MB
+a076a628af6f: Downloading [======>                                            ]  3.632MB/27.11MB
+943d8acaac04: Downloading [==============================>                    ]  1.973MB/3.249MB
+943d8acaac04: Downloading [===============================>                   ]  2.071MB/3.249MB
+a076a628af6f: Downloading [========>                                          ]  4.467MB/27.11MB
+8162353a3d61: Downloading [>                                                  ]    425kB/42.44MB
+943d8acaac04: Downloading [========================================>          ]  2.628MB/3.249MB
+a076a628af6f: Downloading [=========>                                         ]  5.032MB/27.11MB
+8162353a3d61: Downloading [=>                                                 ]  858.6kB/42.44MB
+943d8acaac04: Downloading [=========================================>         ]  2.694MB/3.249MB
+a076a628af6f: Downloading [==========>                                        ]  5.589MB/27.11MB
+8162353a3d61: Downloading [=>                                                 ]  1.285MB/42.44MB
+943d8acaac04: Downloading [===============================================>   ]  3.054MB/3.249MB
+a076a628af6f: Downloading [===========>                                       ]  6.147MB/27.11MB
+8162353a3d61: Downloading [==>                                                ]  1.711MB/42.44MB
+943d8acaac04: Downloading [================================================>  ]  3.152MB/3.249MB
+943d8acaac04: Verifying Checksum 
+943d8acaac04: Download complete 
+a076a628af6f: Downloading [===========>                                       ]  6.433MB/27.11MB
+8162353a3d61: Downloading [===>                                               ]  2.575MB/42.44MB
+8162353a3d61: Downloading [====>                                              ]  3.873MB/42.44MB
+a076a628af6f: Downloading [=============>                                     ]  7.277MB/27.11MB
+a076a628af6f: Downloading [==============>                                    ]  7.834MB/27.11MB
+8162353a3d61: Downloading [=====>                                             ]  4.746MB/42.44MB
+a076a628af6f: Downloading [===============>                                   ]   8.67MB/27.11MB
+8162353a3d61: Downloading [========>                                          ]  6.896MB/42.44MB
+8162353a3d61: Downloading [==========>                                        ]    8.6MB/42.44MB
+a076a628af6f: Downloading [================>                                  ]  8.952MB/27.11MB
+a076a628af6f: Downloading [=================>                                 ]  9.231MB/27.11MB
+8162353a3d61: Downloading [============>                                      ]  10.32MB/42.44MB
+8162353a3d61: Downloading [==============>                                    ]  12.05MB/42.44MB
+a076a628af6f: Downloading [==================>                                ]  9.784MB/27.11MB
+8162353a3d61: Downloading [===============>                                   ]  13.35MB/42.44MB
+8162353a3d61: Downloading [=================>                                 ]  15.06MB/42.44MB
+a076a628af6f: Downloading [===================>                               ]  10.34MB/27.11MB
+8162353a3d61: Downloading [==================>                                ]  15.92MB/42.44MB
+a076a628af6f: Downloading [===================>                               ]  10.63MB/27.11MB
+8162353a3d61: Downloading [====================>                              ]  17.64MB/42.44MB
+8162353a3d61: Downloading [=====================>                             ]  18.08MB/42.44MB
+a076a628af6f: Downloading [====================>                              ]  10.91MB/27.11MB
+a076a628af6f: Downloading [====================>                              ]  11.18MB/27.11MB
+8162353a3d61: Downloading [=======================>                           ]  20.24MB/42.44MB
+8162353a3d61: Downloading [=========================>                         ]  21.97MB/42.44MB
+a076a628af6f: Downloading [=====================>                             ]  11.46MB/27.11MB
+8162353a3d61: Downloading [===========================>                       ]  23.68MB/42.44MB
+a076a628af6f: Downloading [=====================>                             ]  11.75MB/27.11MB
+8162353a3d61: Downloading [=============================>                     ]  25.41MB/42.44MB
+a076a628af6f: Downloading [======================>                            ]  12.31MB/27.11MB
+8162353a3d61: Downloading [===============================>                   ]   26.7MB/42.44MB
+a076a628af6f: Downloading [=======================>                           ]  12.59MB/27.11MB
+8162353a3d61: Downloading [================================>                  ]  27.98MB/42.44MB
+a076a628af6f: Downloading [========================>                          ]  13.43MB/27.11MB
+8162353a3d61: Downloading [=================================>                 ]  28.85MB/42.44MB
+a076a628af6f: Downloading [=========================>                         ]  13.99MB/27.11MB
+8162353a3d61: Downloading [===================================>               ]  30.13MB/42.44MB
+a076a628af6f: Downloading [===========================>                       ]  14.84MB/27.11MB
+8162353a3d61: Downloading [====================================>              ]  31.01MB/42.44MB
+a076a628af6f: Downloading [============================>                      ]   15.4MB/27.11MB
+8162353a3d61: Downloading [=====================================>             ]  31.86MB/42.44MB
+a076a628af6f: Downloading [=============================>                     ]  16.24MB/27.11MB
+8162353a3d61: Downloading [======================================>            ]  32.74MB/42.44MB
+a076a628af6f: Downloading [==============================>                    ]   16.8MB/27.11MB
+8162353a3d61: Downloading [=======================================>           ]   33.6MB/42.44MB
+a076a628af6f: Downloading [================================>                  ]  17.36MB/27.11MB
+8162353a3d61: Downloading [========================================>          ]  34.47MB/42.44MB
+a076a628af6f: Downloading [=================================>                 ]  17.91MB/27.11MB
+a076a628af6f: Downloading [==================================>                ]  18.48MB/27.11MB
+8162353a3d61: Downloading [==========================================>        ]  35.76MB/42.44MB
+a076a628af6f: Downloading [===================================>               ]  19.32MB/27.11MB
+8162353a3d61: Downloading [===========================================>       ]  37.05MB/42.44MB
+a076a628af6f: Downloading [====================================>              ]  19.87MB/27.11MB
+8162353a3d61: Downloading [============================================>      ]  37.91MB/42.44MB
+a076a628af6f: Downloading [=====================================>             ]  20.43MB/27.11MB
+8162353a3d61: Downloading [=============================================>     ]  38.77MB/42.44MB
+a076a628af6f: Downloading [======================================>            ]  20.99MB/27.11MB
+a076a628af6f: Downloading [=======================================>           ]  21.55MB/27.11MB
+8162353a3d61: Downloading [==============================================>    ]  39.63MB/42.44MB
+a076a628af6f: Downloading [=========================================>         ]   22.4MB/27.11MB
+8162353a3d61: Downloading [================================================>  ]  40.92MB/42.44MB
+a076a628af6f: Downloading [==========================================>        ]  22.95MB/27.11MB
+8162353a3d61: Downloading [=================================================> ]  41.79MB/42.44MB
+a076a628af6f: Downloading [===========================================>       ]  23.79MB/27.11MB
+8162353a3d61: Verifying Checksum 
+8162353a3d61: Download complete 
+a076a628af6f: Downloading [=============================================>     ]  24.91MB/27.11MB
+a076a628af6f: Downloading [================================================>  ]   26.3MB/27.11MB
+a076a628af6f: Verifying Checksum 
+a076a628af6f: Download complete 
+a076a628af6f: Extracting  [>                                                  ]  294.9kB/27.11MB
+a076a628af6f: Extracting  [=======>                                           ]  3.834MB/27.11MB
+a076a628af6f: Extracting  [===============>                                   ]  8.552MB/27.11MB
+a076a628af6f: Extracting  [=======================>                           ]  12.68MB/27.11MB
+a076a628af6f: Extracting  [==============================>                    ]  16.52MB/27.11MB
+a076a628af6f: Extracting  [===================================>               ]  19.46MB/27.11MB
+a076a628af6f: Extracting  [============================================>      ]  24.18MB/27.11MB
+a076a628af6f: Extracting  [==============================================>    ]  25.07MB/27.11MB
+a076a628af6f: Extracting  [================================================>  ]  26.25MB/27.11MB
+a076a628af6f: Extracting  [==================================================>]  27.11MB/27.11MB
+a076a628af6f: Pull complete 
+943d8acaac04: Extracting  [>                                                  ]  32.77kB/3.249MB
+943d8acaac04: Extracting  [===========================================>       ]  2.818MB/3.249MB
+943d8acaac04: Extracting  [==================================================>]  3.249MB/3.249MB
+943d8acaac04: Pull complete 
+b9998d19c116: Extracting  [==================================================>]     211B/211B
+b9998d19c116: Extracting  [==================================================>]     211B/211B
+b9998d19c116: Pull complete 
+8162353a3d61: Extracting  [>                                                  ]    426kB/42.44MB
+8162353a3d61: Extracting  [======>                                            ]  5.538MB/42.44MB
+8162353a3d61: Extracting  [============>                                      ]  10.22MB/42.44MB
+8162353a3d61: Extracting  [==================>                                ]  15.76MB/42.44MB
+8162353a3d61: Extracting  [========================>                          ]  20.45MB/42.44MB
+8162353a3d61: Extracting  [=============================>                     ]  25.13MB/42.44MB
+8162353a3d61: Extracting  [==================================>                ]  28.97MB/42.44MB
+8162353a3d61: Extracting  [======================================>            ]   32.8MB/42.44MB
+8162353a3d61: Extracting  [===========================================>       ]  36.63MB/42.44MB
+8162353a3d61: Extracting  [=================================================> ]  41.75MB/42.44MB
+8162353a3d61: Extracting  [==================================================>]  42.44MB/42.44MB
+8162353a3d61: Pull complete 
+[INFO] DOCKER> Digest: sha256:------------------------------------------------------------------
+[INFO] DOCKER> Status: Downloaded newer image for openjdk:11-jre-slim
+[INFO] DOCKER> Pulled openjdk:11-jre-slim in 11 seconds 
+[INFO] DOCKER> Step 1/13 : FROM openjdk:11-jre-slim as builder
+[INFO] DOCKER> 
+[INFO] DOCKER> ---> ff68ba8d72c9
+[INFO] DOCKER> Step 2/13 : WORKDIR application
+[INFO] DOCKER> 
+[INFO] DOCKER> ---> Running in 7b84e66b1738
+[INFO] DOCKER> Removing intermediate container 7b84e66b1738
+[INFO] DOCKER> ---> 3e6956397948
+[INFO] DOCKER> Step 3/13 : ADD maven/mssc-beer-service-0.0.1-SNAPSHOT.jar mssc-beer-service-0.0.1-SNAPSHOT.jar
+[INFO] DOCKER> 
+[INFO] DOCKER> ---> fbe517a866a2
+[INFO] DOCKER> Step 4/13 : RUN java -Djarmode=layertools -jar mssc-beer-service-0.0.1-SNAPSHOT.jar extract
+[INFO] DOCKER> 
+[INFO] DOCKER> ---> Running in e1917b0971d1
+[INFO] DOCKER> Removing intermediate container e1917b0971d1
+[INFO] DOCKER> ---> b2e7774cdd72
+[INFO] DOCKER> Step 5/13 : FROM openjdk:11-jre-slim
+[INFO] DOCKER> 
+[INFO] DOCKER> ---> ff68ba8d72c9
+[INFO] DOCKER> Step 6/13 : LABEL PROJECT_NAME=mssc-beer-service       PROJECT=com.kwgdev:mssc-beer-service:jar:0.0.1-SNAPSHOT
+[INFO] DOCKER> 
+[INFO] DOCKER> ---> Running in d9abe21bd587
+[INFO] DOCKER> Removing intermediate container d9abe21bd587
+[INFO] DOCKER> ---> 00db904d3d1a
+[INFO] DOCKER> Step 7/13 : EXPOSE 8080
+[INFO] DOCKER> 
+[INFO] DOCKER> ---> Running in 80ec83e3bbe6
+[INFO] DOCKER> Removing intermediate container 80ec83e3bbe6
+[INFO] DOCKER> ---> f35cdfc36e8f
+[INFO] DOCKER> Step 8/13 : WORKDIR application
+[INFO] DOCKER> 
+[INFO] DOCKER> ---> Running in 4fb63fb1eee5
+[INFO] DOCKER> Removing intermediate container 4fb63fb1eee5
+[INFO] DOCKER> ---> 5184fd45166a
+[INFO] DOCKER> Step 9/13 : COPY --from=builder application/dependencies/ ./
+[INFO] DOCKER> 
+[INFO] DOCKER> ---> c0b7e3fd0d9f
+[INFO] DOCKER> Step 10/13 : COPY --from=builder application/spring-boot-loader/ ./
+[INFO] DOCKER> 
+[INFO] DOCKER> ---> 4d387565ad0f
+[INFO] DOCKER> Step 11/13 : COPY --from=builder application/snapshot-dependencies/ ./
+[INFO] DOCKER> 
+[INFO] DOCKER> ---> 84c6314147d5
+[INFO] DOCKER> Step 12/13 : COPY --from=builder application/application/ ./
+[INFO] DOCKER> 
+[INFO] DOCKER> ---> d6d9cd92ff6e
+[INFO] DOCKER> Step 13/13 : ENTRYPOINT ["java", "-Djava.security.egd=file:/dev/./urandom", "org.springframework.boot.loader.JarLauncher"]
+[INFO] DOCKER> 
+[INFO] DOCKER> ---> Running in ef45f2afee2b
+[INFO] DOCKER> Removing intermediate container ef45f2afee2b
+[INFO] DOCKER> ---> 4f9addb60e58
+[INFO] DOCKER> Successfully built 4f9addb60e58
+[INFO] DOCKER> Successfully tagged <docker-username>/mssc-beer-service:latest
+[INFO] DOCKER> [<docker-username>/mssc-beer-service:latest] "mssc-beer-service": Built image sha256:4f9ad
+[INFO] DOCKER> [>docker-username>/mssc-beer-service:latest] "mssc-beer-service": Tag with latest,0.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  26.715 s
+[INFO] Finished at: 2021-01-28T15:52:36-06:00
+[INFO] ------------------------------------------------------------------------
