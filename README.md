@@ -96,6 +96,10 @@ ELK Without Logstash
     - Thus, possible to skip Logstash and write directly to Elasticsearch
     - Previously we setup JSON log output
     - Filebeat can convert JSON logs to JSON objects for Elasticsearch
+    
+![elk stack diagram](https://raw.githubusercontent.com/kawgh1/kwg-microservices-brewery/master/server-images/ELK-Stack-diagram.png)
+  
+  [Top](#top)
 
 
 ### [Spring Cloud Sleuth (Zipkin)](#spring-cloud-sleuth-zipkin)
