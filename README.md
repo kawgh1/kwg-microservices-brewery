@@ -62,6 +62,9 @@
 3. [Java Messaging Service (JMS)](#java-messaging-service-jms)
 
 ### [Consolidated Logging (ELK Stack)](#consolidated-logging-elk-stack)
+  
+  ![elk stack diagram](https://raw.githubusercontent.com/kawgh1/kwg-microservices-brewery/master/server-images/ELK-Stack-diagram.png)
+
 #### - E - Elasticsearch
 #### - L - Logstash
 #### - K - Kibana
@@ -97,7 +100,6 @@ ELK Without Logstash
     - Previously we setup JSON log output
     - Filebeat can convert JSON logs to JSON objects for Elasticsearch
     
-![elk stack diagram](https://raw.githubusercontent.com/kawgh1/kwg-microservices-brewery/master/server-images/ELK-Stack-diagram.png)
   
   [Top](#top)
 
