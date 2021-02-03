@@ -57,9 +57,9 @@
 
 # [Contents](#contents)
 1. [Consolidated Logging (ELK Stack)](#consolidated-logging-elk-stack)
-1. [Spring Cloud Sleuth (Zipkin)](#spring-cloud-sleuth-zipkin)
-2. [Docker](#docker)
-3. [Java Messaging Service (JMS)](#java-messaging-service-jms)
+2. [Spring Cloud Sleuth (Zipkin)](#spring-cloud-sleuth-zipkin)
+3. [Docker](#docker)
+4. [Java Messaging Service (JMS)](#java-messaging-service-jms)
 
 ### [Consolidated Logging (ELK Stack)](#consolidated-logging-elk-stack)
   
@@ -94,7 +94,7 @@
     - Often destination is a **logstash server**
         - Logstash is used for further transformation before sending to Elasticsearch
         
-ELK Without Logstash
+- ELK Without Logstash
     - Filebeat has ability to do ***some*** transformations
     - Thus, possible to skip Logstash and write directly to Elasticsearch
     - Previously we setup JSON log output
